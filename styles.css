@@ -1,0 +1,139 @@
+/* .color1 {color: #120907;}
+.color2 {color: #12243a;}
+.color3 {color: #145b86;}
+.color4 {color: #209cd8;}
+.color5 {color: #20d9d8;}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    outline: none;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+
+
+}
+
+body {
+    background-color: #209cd8;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    background-color: #145b86;
+    color: #ffff;
+    width: 30%;
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 30px 24px 23px 20px;
+    border: 1px solid #12243a;
+    box-shadow: 50px 100px 50px rgba(0, 0, 0, 0.357);
+}
+
+label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+select,
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 24px;
+    margin-top: 5px;
+    padding: 0 18px;
+    font-size: 16px;
+    font-weight: 700;
+    appearance: none;
+    color: #145b86;
+    text-align: center;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 24px;
+    margin-top: 5px;
+    padding: 0 18px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #120907;
+    color: #ffff;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+    background-color: #12243a;
+    color: #6ca9c7;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.5;
+    color: #ffff;
+}
+
+input:hover {
+
+    color: #6ca9c7;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #12243a;
+    color: #6ca9c7;
+    cursor: pointer;
+}
+
+section {
+    background-color: #12243a;
+    width: 100%;
+    padding: 0 auto;
+    border-radius: 30px;
+    border: 1px solid #ffffff5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    margin: 15px 0;
+    background-color: #145b86;
+    border-radius: 50px;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 4px;
+    border: 1px solid #ffffff5f;
+
+}
+
+.currency-value {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    
+}
+
+.currency-name {
+    font-size: 20   px;
+    font-weight: 400;
+}
