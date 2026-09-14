@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+   
     <title>DevClub Convert Money</title>
 </head>
 <body>
@@ -30,27 +31,27 @@
 
         <label>
             Valor:
-            <input type="number" placeholder="Digite o valor" />
+            <input class="currency-input" type="number" placeholder="1.000,00" />
 
-            <button>Converter</button>
+            <button class="convert-button">Converter</button>
             
             <section>
                 <div class="currency-box">
                     <img src="assets/real.png" alt="logo-moeda-a-converter">
-                    <p class="currency-name">Real</p>
-                    <p class="currency-value">R$ 0,00</p>
+                    <p class="currency-name">Real:</p>
+                    <p class="currency-value-to-convert">R$ 0,00</p>
                 </div>
 
                 <img class="arrow-img" src="assets/arrow.png" alt="seta-conversao ">
 
                 <div class="currency-box">
                     <img src="assets/dolar.png" alt="logo-moeda-convertida">
-                    <p class="currency-name">Dólar</p>
+                    <p class="currency-name">Dólar:</p>
                     <p class="currency-value">US$ 0,00</p>
                 </div>
             </section>
     </main>
 
 </body>
-
+ <script src="script.js"></script>
 </html>

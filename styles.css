@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: #209cd8;
+    background: linear-gradient(20deg, #120907 0%, #304b6b 50%, #20d9d8 100%);
     width: 100vw;
     height: 100vh;
 }
@@ -126,7 +126,7 @@ section {
 
 }
 
-.currency-value {
+.currency-value,.currency-value-to-convert {
     font-size: 20px;
     font-weight: 700;
     display: flex;
@@ -136,4 +136,5 @@ section {
 .currency-name {
     font-size: 20   px;
     font-weight: 400;
+    margin-right: 5px;
 }
