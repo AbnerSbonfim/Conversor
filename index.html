@@ -16,16 +16,23 @@
     <main>
         <label>
             Converter <b>de:</b>
-            <select>
+            <select class="currency-select-up">
                 <option value="BRL">R$ Real brasileiro</option>
+                <option value="USD">US$ Dólar americano</option>
+                <option value="EUR">€ Euro</option>  
+                <option value="JPY">¥ Iene japonês</option>
+                <option value="GBP">£ Libra esterlina</option>
             </select>
         </label>
 
          <label>
             Converter <b>para:</b>
-            <select class="currency-select">
+            <select class="currency-select-down">
                 <option value="USD">US$ Dólar americano</option>
                 <option value="EUR">€ Euro</option>
+                <option value="BRL">R$ Real brasileiro</option>
+                <option value="JPY">¥ Iene japonês</option>
+                <option value="GBP">£ Libra esterlina</option>   
             </select>
         </label>
 
@@ -37,16 +44,16 @@
             
             <section>
                 <div class="currency-box">
-                    <img src="assets/real.png" alt="logo-moeda-a-converter">
-                    <p class="currency-name">Real:</p>
+                    <img class="currency-img-up" src="assets/real.png" alt="logo-moeda-a-converter">
+                    <p class="currency-name-id-up">Real:</p>
                     <p class="currency-value-to-convert">R$ 0,00</p>
                 </div>
 
                 <img class="arrow-img" src="assets/arrow.png" alt="seta-conversao ">
 
                 <div class="currency-box">
-                    <img class="currency-img" src="assets/dolar.png" alt="logo-moeda-convertida">
-                    <p class="currency-name" id="currency-name-id">Dólar:</p>
+                    <img class="currency-img-down" src="assets/dolar.png" alt="logo-moeda-convertida">
+                    <p class="currency-name-id-down">Dólar:</p>
                     <p class="currency-value">US$ 0,00</p>
                 </div>
             </section>
