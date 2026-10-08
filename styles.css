@@ -14,18 +14,23 @@
 
 
 .logo {
-    width: 200px;
+    width: 150px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 5px;
+    
 
 
 }
 
 body {
     background: linear-gradient(20deg, #120907 0%, #304b6b 50%, #20d9d8 100%);
-    width: 100vw;
+
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 main {
@@ -33,10 +38,11 @@ main {
     color: #ffff;
     width: 30%;
     border-radius: 40px;
-    margin: 0 auto;
     padding: 30px 24px 23px 20px;
     border: 1px solid #12243a;
     box-shadow: 50px 100px 50px rgba(0, 0, 0, 0.357);
+    padding-bottom: 100px;
+
 }
 
 label {
@@ -127,15 +133,16 @@ section {
 
 }
 
-.currency-value,.currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
     font-size: 20px;
     font-weight: 700;
     display: flex;
-    
+
 }
 
 .currency-name {
-    font-size: 20   px;
+    font-size: 20 px;
     font-weight: 400;
     margin-right: 5px;
 }
