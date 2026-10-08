@@ -31,7 +31,7 @@ Conversor de moedas onde o usuário escolhe a moeda de origem e destino, informa
 
 ## 🖥️ Desktop
 
-![Versão Desktop]()
+![Versão Desktop](https://github.com/AbnerSbonfim/Conversor/blob/main/assets/Conversor.png?raw=true)
 
 <br>
 
